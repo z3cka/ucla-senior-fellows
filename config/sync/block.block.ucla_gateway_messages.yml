@@ -1,0 +1,22 @@
+uuid: bbc3afd0-0b27-40b0-ac7a-affb2c6a6d2c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ucla_gateway
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: ucla_gateway_messages
+theme: ucla_gateway
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: fb83646b-9528-4555-ac8c-b926a6cd96cb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ucla_gateway
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ucla_gateway_local_actions
+theme: ucla_gateway
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

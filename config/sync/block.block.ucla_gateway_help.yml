@@ -1,0 +1,22 @@
+uuid: da99889e-ffb8-4854-a542-346dd628cef2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ucla_gateway
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: ucla_gateway_help
+theme: ucla_gateway
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
