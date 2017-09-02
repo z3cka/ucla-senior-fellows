@@ -1,11 +1,11 @@
 uuid: 7ef26801-e173-42f4-9ba7-a4ebd139adc9
-name: 'Senior Fellows'
+name: 'UCLA Senior Fellows'
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
